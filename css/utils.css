@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(208, 11%, 55%);
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+/*  
+***************
+              *    
+ Layout Utils *
+              *
+*************** 
+*/
+
+.flex {
+  display: flex;
+}
+
+.gap-2rem {
+  gap: 2rem;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+
+.v-center {
+  align-items: center;
+  align-content: center;
+}
+
+.h-center {
+  justify-content: center;
+  justify-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+  justify-items: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/* MARGINS */
+
+.margin-main {
+  margin: 5.4rem;
+}
+
+.margin-s {
+  margin: 1.2rem;
+}
+
+.margin-m {
+  margin: 2.4rem;
+}
+
+.margin-b {
+  margin: 3.2rem;
+}
+
+/* Padding */
+
+.padding-main {
+  padding: 5.4rem;
+}
+
+.padding-s {
+  padding: 1.2rem;
+}
+
+.padding-m {
+  padding: 2.4rem;
+}
+
+.padding-b {
+  padding: 3.2rem;
+}
